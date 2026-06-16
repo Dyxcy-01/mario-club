@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+header{
+    background-color: red;
+    margin-bottom: 45px;
+    padding-bottom: 8px;
+}
+header h1{
+    border: 4px solid #fff;
+    padding: 10px 10px;
+    border-radius: 22px;
+    display: inline-block;
+    place-self: center;
+}
+
+.adventure-header{
+    padding: 20px 0;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.nav{
+    background-color: gray;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    display: flex;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+li{
+    
+    margin: 0 120px;
+}
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav ul li a:hover {
+    color: #fc2104e3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav ul::after {
+    color: #fff;
+}
+
+main div h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 25px;
+    padding: 10px 100px;
+    text-align: justify;
+    line-height: 50px;
+}
+
+footer{
+    background-color: grey;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div h4{
+    color: #fff;
+}
+
+/* UTILITIES */
+.red{
+    color: red;
+}
+.center{
+    place-self: center;
+}
