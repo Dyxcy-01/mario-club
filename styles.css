@@ -7,6 +7,7 @@ header{
     background-color: red;
     margin-bottom: 45px;
     padding-bottom: 8px;
+    width: fit-content;
 }
 header h1{
     border: 4px solid #fff;
@@ -24,6 +25,11 @@ header h1{
     align-items: center;
     height: 100px;
 }
+
+header div img{
+    width: 100%;
+}
+
 .nav{
     background-color: gray;
     color: #fff;
@@ -78,10 +84,35 @@ footer div h4{
     color: #fff;
 }
 
+
+/* FRIENDS PAGE */
+.friends-card-list{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 110px;
+}
+.friends-card{
+    background-color: rgba(155, 155, 155, 0.712);
+    border-radius: 25px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    min-height: 500px;
+    height: auto;
+}
+.friends-card p{
+    padding: 0;
+}
+
 /* UTILITIES */
 .red{
     color: red;
 }
 .center{
     place-self: center;
+}
+.inline-block{
+    display: inline-block;
 }
